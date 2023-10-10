@@ -20,3 +20,8 @@ mvn compile exec:java -D exec.mainClass="org.example.TodoTests" # run a TODO MVC
 ./mvnw compile exec:java -D exec.mainClass="org.example.FullTests" # run a complete example.
 ./mvnw compile exec:java -D exec.mainClass="org.example.TodoTests" # run a TODO MVC example.
 ```
+
+3. To use maven-surefire-plugin to run tests on directory `src/test/java/`, run the following line:
+```
+mvn clean test
+```
